@@ -7,7 +7,6 @@ export function Welcome() {
       <div className="text-center ">
         <h1 className="text-2xl mt-4 mb-2">Welcome to Password Manager</h1>
         <h4>Create and store your passwords easily</h4>
-        {process.env.REACT_APP_FIREBASE_PROJECT_ID}
       </div>
     </>
   );
