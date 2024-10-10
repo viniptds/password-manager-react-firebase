@@ -5,20 +5,20 @@ const table = 'passwords';
 
 const passwordService = {
     list: async (userId) => {
-        let docs = await dbService.query(table, [
+        const docs = await dbService.query(table, [
             ['user_id', '==', userId]
         ]);
 
         return docs
     },
     save: async (userId, data) => {
-        let saveData = {
+        const saveData = {
             app_name: data.appName,
             password: data.password,
             user_id: data.userId
         }
 
-        let savedApp = await dbService.query(table, [
+        const savedApp = await dbService.query(table, [
             ['app_name', '==', saveData.app_name],
             ['user_id', '==', userId]
         ]);

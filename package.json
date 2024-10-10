@@ -29,7 +29,7 @@
       "react-app/jest"
     ],
     "rules": {
-      "eqeqeq": ["warn", "smart"],
+      "eqeqeq": ["off", "smart"],
       "no-debugger": "warn",
       "react/no-children-prop": "off",
       "react/react-in-jsx-scope": "off",
@@ -37,7 +37,8 @@
       "react/display-name": "off",
       "react/jsx-key": "warn",
       "no-empty": "warn",
-      "prefer-const": "warn"
+      "prefer-const": "warn",
+      "react-hooks/exhaustive-deps": "off"
     }
   },
   "browserslist": {

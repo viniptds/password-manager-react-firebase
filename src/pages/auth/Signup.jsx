@@ -18,7 +18,7 @@ export function Signup() {
     if (isAuthenticated) {
       navigate("/");
     }
-  }, []);
+  }, [isAuthenticated]);
 
   const onSubmit = async (e) => {
     e.preventDefault();

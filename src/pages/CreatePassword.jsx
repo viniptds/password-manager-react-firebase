@@ -10,7 +10,7 @@ export function CreatePassword() {
   const { user } = useContext(UserContext);
   const navigate = useNavigate();
 
-  let onCreatePassword = async (e) => {
+  const onCreatePassword = async (e) => {
     e.preventDefault();
 
     const savedPassword = await passwordService.save(user.uid, {

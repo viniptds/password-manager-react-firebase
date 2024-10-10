@@ -22,7 +22,7 @@ const authService = {
     getUser: async () => {
         await auth.authStateReady();
 
-        let currentUser = auth.currentUser;
+        const currentUser = auth.currentUser;
         return currentUser;
     },
     self: auth
