@@ -27,7 +27,18 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "eqeqeq": ["warn", "smart"],
+      "no-debugger": "warn",
+      "react/no-children-prop": "off",
+      "react/react-in-jsx-scope": "off",
+      "react/no-unescaped-entities": "off",
+      "react/display-name": "off",
+      "react/jsx-key": "warn",
+      "no-empty": "warn",
+      "prefer-const": "warn"
+    }
   },
   "browserslist": {
     "production": [
