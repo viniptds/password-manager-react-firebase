@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/password-manager-react-firebase/static/css/main.c5e3519e.css",
+    "main.js": "/password-manager-react-firebase/static/js/main.7d4a5708.js",
+    "static/js/453.674a9a93.chunk.js": "/password-manager-react-firebase/static/js/453.674a9a93.chunk.js",
+    "index.html": "/password-manager-react-firebase/index.html",
+    "main.c5e3519e.css.map": "/password-manager-react-firebase/static/css/main.c5e3519e.css.map",
+    "main.7d4a5708.js.map": "/password-manager-react-firebase/static/js/main.7d4a5708.js.map",
+    "453.674a9a93.chunk.js.map": "/password-manager-react-firebase/static/js/453.674a9a93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5e3519e.css",
+    "static/js/main.7d4a5708.js"
+  ]
+}
