@@ -18,10 +18,10 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install and build
-        uses: npm install && npm run build
+        run: npm install && npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build # The folder the action should deploy.
