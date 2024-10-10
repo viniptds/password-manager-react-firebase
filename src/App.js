@@ -27,7 +27,6 @@ const reducer = (state, action) => {
 }
 
 function App() {
-  console.log(true, process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID, false)
   const [state, dispatch] = useReducer(reducer, initialState)
 
   useEffect(() => {
