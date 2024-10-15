@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/password-manager-react-firebase/static/css/main.c5e3519e.css",
-    "main.js": "/password-manager-react-firebase/static/js/main.e6d31a5c.js",
+    "main.css": "/password-manager-react-firebase/static/css/main.061b1be6.css",
+    "main.js": "/password-manager-react-firebase/static/js/main.bd574474.js",
     "static/js/453.674a9a93.chunk.js": "/password-manager-react-firebase/static/js/453.674a9a93.chunk.js",
     "index.html": "/password-manager-react-firebase/index.html",
-    "main.c5e3519e.css.map": "/password-manager-react-firebase/static/css/main.c5e3519e.css.map",
-    "main.e6d31a5c.js.map": "/password-manager-react-firebase/static/js/main.e6d31a5c.js.map",
+    "main.061b1be6.css.map": "/password-manager-react-firebase/static/css/main.061b1be6.css.map",
+    "main.bd574474.js.map": "/password-manager-react-firebase/static/js/main.bd574474.js.map",
     "453.674a9a93.chunk.js.map": "/password-manager-react-firebase/static/js/453.674a9a93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e3519e.css",
-    "static/js/main.e6d31a5c.js"
+    "static/css/main.061b1be6.css",
+    "static/js/main.bd574474.js"
   ]
 }
