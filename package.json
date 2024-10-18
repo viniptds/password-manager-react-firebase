@@ -1,6 +1,5 @@
 {
   "name": "password-manager-react-firebase",
-  "homepage": "https://viniptds.github.io/password-manager-react-firebase",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
